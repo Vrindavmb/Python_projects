@@ -1,6 +1,11 @@
 import pyttsx3
 from PyPDF2 import PdfReader
 
+# -----------------------------------------------
+# Text-to-Speech Conversion Program
+# This script reads text from a PDF (or text file)
+# and converts it to spoken audio using pyttsx3.
+#
 
 def main():
     #Open the file in read mode
